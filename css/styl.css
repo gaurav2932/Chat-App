@@ -1,0 +1,94 @@
+/* <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&family=Comic+Neue:wght@700&display=swap" rel="stylesheet"> */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(3, 255, 171);
+}
+
+.container{
+    max-width: 920px;
+    border:5px solid aqua;
+    margin: auto;
+    width: auto;
+    /* height: auto; */
+    height: 50vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    font-family: 'Baloo Tamma 2', cursive;
+font-family: 'Comic Neue', cursive;
+}
+
+.message{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid rgb(7, 34, 15);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageinp{
+    border-radius: 20px;
+    border: 2px solid rgb(46, 46, 46);
+    outline: none;
+    width: 90%;
+    height: 30px;
+    padding: 1px 4px;
+    margin: 10px 2px;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 3px 6px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    padding: 5px 5px;
+    color: rgb(9, 255, 0);
+    border: 2px solid black;
+    background: black;
+    text-shadow: 0 0 8px #ffffff, 0 0 7px #00f7ff;
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(22, 22, 22);
+    border: 2px solid black;
+    color: blue;
+    font-weight: 500;
+}
+body{
+    background: url(https://cdn57.androidauthority.net/wp-content/uploads/2020/02/WhatsApp-by-Facebook-stock-photo-6.jpg) no-repeat center fixed; 
+    background-size: cover;
+    height: 100vh;
+}

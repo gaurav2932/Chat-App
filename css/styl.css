@@ -64,7 +64,7 @@ font-family: 'Comic Neue', cursive;
     outline: none;
     width: 90%;
     height: 30px;
-    padding: 1px 4px;
+    padding: 4px 5px;
     margin: 10px 2px;
 }
 
@@ -84,7 +84,7 @@ font-family: 'Comic Neue', cursive;
 .btn:hover{
     background-color: rgb(22, 22, 22);
     border: 2px solid black;
-    color: blue;
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 body{
